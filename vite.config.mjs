@@ -10,7 +10,6 @@ import { fileURLToPath, URL } from "node:url";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/Order-summary-component-FM-challenge-8/",
   plugins: [
     Vue({
       template: { transformAssetUrls },
@@ -41,6 +40,7 @@ export default defineConfig({
     },
     extensions: [".js", ".json", ".jsx", ".mjs", ".ts", ".tsx", ".vue"],
   },
+  base: "/Order-summary-component-FM-challenge-8/",
   server: {
     port: 3000,
   },
